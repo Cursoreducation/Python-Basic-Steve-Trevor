@@ -47,3 +47,14 @@ c1 = Count(3)
 c2 = Count(8)
 c3 = c1 + c2
 print(c3)
+
+class MyClass:
+    def __init__(self):
+        print('Instance created')
+
+    def __call__(self):
+        print('Instance is called via __call__')
+
+key = MyClass()
+
+key()
