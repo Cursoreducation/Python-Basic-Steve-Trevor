@@ -1,0 +1,59 @@
+# **Garden**
+We have only one garden. In the garden can have
+vegetables, fruits and pests.
+Each fruit or vegetable should have a stage of
+maturity (stages: None, Flowering, Green, Red).
+Pests can eat only green and red fruit or vegetable.
+Once pests eat the fruit, it should be removed.
+
+## There is a Tomato with the following
+characteristics:
+1. Number of tomatoes (Index)
+2. Vegetable type
+
+### A tomato can:
+1. Grow (move to the next stage of maturation)
+2. Provide information about your maturity
+
+### There is a Tomato Bush that:
+1. Contains a list of tomatoes that grow on it
+
+### And:
+1. Grow with tomatoes
+2. Provide information on the maturity
+of all tomatoes
+3. Provide harvest
+
+## There is an Apple with the following
+characteristics:
+1. Number of apples (Index)
+2. Fruit type
+
+### An apple can:
+1. Grow (move to the next stage of maturation)
+2. Provide information about your maturity
+
+### There is an Apple Tree that:
+1. Contains a list of apples that grow on it
+
+### And:
+1. Grow with apples
+2. Provide information on the maturity of all apples
+3. Provide harvest
+
+## And there is also a Gardener who has:
+1. Name
+2. The plants he looks after
+
+### And:
+1. Take care of the plant
+2. Poison the pests
+2. Harvest from it
+
+## And there is also a Pests who have:
+1. Type
+2. Quntity
+
+### And:
+1. Eat the plants
+
