@@ -50,10 +50,33 @@ characteristics:
 2. Poison the pests
 2. Harvest from it
 
+Homework:
+
 ## And there is also a Pests who have:
 1. Type
 2. Quntity
 
 ### And:
 1. Eat the plants
+
+### Implement the possibility when pests eat the fruit and vegetable
+
+Your implementation should work with this:
+Please note that this part doesn't include the pests, you need to finish it as well.
+if name == 'main':
+    # Creating list of instances for vegetables and fruits, pests and gardener
+    tomato_bush = TomatoBush(4)
+    apple_tree = AppleTree(3)
+    pests = Pests('worm', 10)
+    tom = StarGardener('Tom', [tomato_bush, apple_tree])
+    # creating only one garden instance with vegetables and fruits
+    garden = Garden(vegetables=tomato_bush.tomatoes, fruits=apple_tree.apples, pests=pests, gardener=tom)
+    garden.show_the_garden()
+    state = tom.check_states()
+    # if not state:
+    #     gardener.handling()
+    for i in range(3):
+        tom.handling()
+    tom.harvest()
+
 
