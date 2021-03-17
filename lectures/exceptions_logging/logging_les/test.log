@@ -1,0 +1,14 @@
+2021-03-16 20:56:27,213 - root - DEBUG - debug - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - INFO - user Misha register item - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - DEBUG - debug1 - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - DEBUG - debug2 - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - WARNING - warning22 - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - WARNING - warning - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - ERROR - error - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - CRITICAL - critical1 - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - CRITICAL - critical2 - D:/Cursor/exception_logging/logging_les/ex2.py
+2021-03-16 20:56:27,213 - root - ERROR - ZeroDivisionError - D:/Cursor/exception_logging/logging_les/ex2.py
+Traceback (most recent call last):
+  File "D:/Cursor/exception_logging/logging_les/ex2.py", line 25, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
