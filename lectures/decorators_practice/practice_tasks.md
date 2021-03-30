@@ -12,9 +12,7 @@ Decorators:
    
    def __init__(self, func): self.function = func
    def __call__(self, *args, **kwargs):
-
-# adding a decorator to the function
-
+   
 ```
 @Timer
 def some_function(delay): 
