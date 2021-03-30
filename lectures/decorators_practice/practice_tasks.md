@@ -45,26 +45,29 @@ def argument_test_natural_number(f):
    Напишіть декоратор який виведе результат як str.
 
 5. Напишіть декоратор logger який буде зберігати логи у файлі, шлях до файлу можна 
-   вказувати як аргумент до декоратора.  
+   вказувати як аргумент до декоратора.
+   
+```
       @logger()
       def myfunc1():
           pass
    
       myfunc1()
-   
-      # Output: myfunc1 finished
-      # File out.log created and contain the output
-      
+```
+      Output: myfunc1 finished
+      File out.log created and contain the output
+```
       @logger(logfile='func2.log')
       def myfunc2():
           pass
    
       myfunc2()
-   
-      # Output: myfunc1 finished
-      # File func2.log created and contain the output
-
+```
+      Output: myfunc1 finished
+      File func2.log created and contain the output
 6. Напишіть декоратор який буде перейменовувавти вихідний файл функції яка створює цей файл.
+   
+```
     @rename('test1.txt')
     def create_file():
         file_name = "copy.txt"
@@ -72,3 +75,4 @@ def argument_test_natural_number(f):
         file.write("Your text goes here")
         file.close()
         return file_name
+```
