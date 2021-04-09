@@ -1,0 +1,13 @@
+1. Write the method that return the number of threads currently in execution. 
+Also prepare the method that will be executed with threads and run during the first method counting.
+
+2. Print current date by using 2 threads.
+#1. Define a subclass using Thread class.
+#2. Instantiate the subclass and trigger the thread. 
+
+3. Use Pool.apply() to get the row wise common items in list_a and list_b.
+list_a = [[1, 2, 3], [5, 6, 7, 8], [10, 11, 12], [20, 21]]
+list_b = [[2, 3, 4, 5], [6, 9, 10], [11, 12, 13, 14], [21, 24, 25]]
+
+4. Divide the work between 2 methods: print_cube that returns the cube of number 
+and print_square that returns the square of number. These two methods should be executed by using 2 different processes.
